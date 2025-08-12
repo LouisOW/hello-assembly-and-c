@@ -21,8 +21,8 @@ fn print_asm(message: &str) {
 }
 
 fn main() {
-    let assembly = "Hello from Assembly";
-    let c = "Hello from C";
+    let assembly = "Hello from Assembly!";
+    let c = "Hello from C!";
     print(&c);
     print_asm(&assembly);
 }
