@@ -1,5 +1,6 @@
 fn main() {
     cc::Build::new()
-        .file("print.c")
-        .compile("print");
+        .file("native/print.c")
+        .file("native/print.s")
+        .compile("print_lib");
 }
